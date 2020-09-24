@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.btn{
+    font-family: 'Ubuntu';
+    /* box-shadow: 0 0 3px #1ebfff; */
+    transition: all 1s ease-in-out .5s;
+    color: blanchedalmond;
+}
+.btn:hover{
+    background-color: rgb(21, 138, 118);
+    width: 130px;
+    border-radius: 40px
+}
+
+.btn-login{
+    width: 100%;
+    background: none;
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-login:hover{
+    background: rgba(0,0,0,0.8);
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.botton a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.button a:hover{
+    text-decoration: underline;
+}
+.jargon{
+    margin-top: 25px;
+    color: rgb(10, 71, 71);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.tabel2 tr:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+  
+  .bg-gradient-info {
+    background-color: #36b9cc;
+    background-image: linear-gradient(180deg, #36b9cc 10%, #258391 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-warning {
+    background-color: #fbff09;
+    background-image: linear-gradient(180deg, #f6c23e 10%, #dda20a 100%);
+    background-size: cover;
+  }
+  
+  .bg-gradient-danger {
+    background-color: #e74a3b;
+    background-image: linear-gradient(180deg, #e74a3b 10%, #be2617 100%);
+    background-size: cover;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 4px solid #e3e6f0;
+    border-radius: 0.35rem;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+    margin-left: 12px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -0.75rem;
+    margin-left: -0.75rem; */
+  }
+
+  .letter{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 70px;
+      font-weight: bold;
+      color: #444;
+      display: inline-block;
+      position: relative;
+  }
+  .greensock{
+      text-align: center;
+      margin-top: 30px;
+  }
+  /* .modal{
+      color: #000000;
+  } */
+  .atur_tombol{
+      padding-left: 20px;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+
+ 
+
